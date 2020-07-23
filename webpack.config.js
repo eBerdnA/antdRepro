@@ -12,7 +12,7 @@ module.exports = {
         poll: true
     },
 	resolve: {
-		extensions: [".js"]
+		extensions: [".ts", ".tsx", ".js"]
 	},
 	output: {
 		path: path.resolve(__dirname, "wwwroot/dist"),
